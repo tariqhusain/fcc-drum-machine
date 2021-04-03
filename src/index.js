@@ -79,7 +79,6 @@ class DrumMachineApp extends React.Component {
 
   handleClick(e) {
     let currKeyPressed = e.target.id.replace("key", "");
-    console.log(currKeyPressed);
     this.setState({
       keyPressed: currKeyPressed
     });
